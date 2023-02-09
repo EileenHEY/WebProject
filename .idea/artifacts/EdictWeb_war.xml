@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EdictWeb:war">
+    <output-path>$PROJECT_DIR$/EdictWeb/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>EdictWeb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="EdictWeb-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="EdictWeb:war exploded" />
+    </root>
+  </artifact>
+</component>
